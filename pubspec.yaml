@@ -1,0 +1,29 @@
+name: travel_soundboard_translator
+description: Travel soundboard and voice translator app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Text-to-Speech bawaan HP (iOS, Android, Windows)
+  flutter_tts: ^4.0.2
+  # Speech-to-Text / Mic bawaan HP dengan Noise Suppression hardware
+  speech_to_text: ^7.0.0
+  # Penerjemah Google gratis & cepat
+  translator: ^1.0.0
+  # Penyimpanan data lokal untuk Kategori & Soundboard
+  shared_preferences: ^2.2.2
+  # Provider untuk State Management
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
